@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body {
+#bodyf {
     font-family: "Lato", sans-serif;
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -71,3 +71,4 @@ button:focus {
     box-shadow: none !important;
     outline-width: 0;
 }
+

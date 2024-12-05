@@ -79,8 +79,6 @@ function validate(val) {
 
     return flag;
 }
-
-
 function validateC(val) {
 
     v6 = document.getElementById("emailc");
@@ -113,4 +111,9 @@ function validateC(val) {
     flag = flag7 && flag6;
 
     return flag;
+}
+
+    function deleteDiv(val) {
+    const delDiv = document.getElementById(val);
+    delDiv.remove();
 }

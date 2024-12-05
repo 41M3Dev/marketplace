@@ -9,8 +9,9 @@
 
     <title>Market Place | Connexion</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../style/bootstrap.css">
-    <link rel="stylesheet" href="../style/stylep.css">
+    <link rel="stylesheet" href="../style/stylef.css">
 
 </head>
 <body id="">
@@ -53,155 +54,90 @@
     </nav>
 </header>
 <main>
-    <!--Information sur le profil-->
-    <section class="profil">
-        <div class="container-fluid">
-            <div class="row justify-content-center mt-5 mb-5">
-                <div class="col-12 col-sm-5 col-md-6">
-                    <div data-aos="fade-right"
-                         data-aos-offset="700"
-                         data-aos-easing="ease-in-sine" class="bg-white shadow rounded overflow-hidden">
-                        <div class="px-4 pt-0 pb-4 cover">
-                            <div class="row mt-4">
-                                <div class="col-md-6">
-                                    <div class="profile mr-3">
-                                        <img
-                                                src="https://images.wondershare.com/filmora/article-images/11-satoru-gojo.jpg"
-                                                alt="..."
-                                                class="rounded mb-2 img-fluid"
-                                        />
-                                        <!--<a href="#" class="btn btn-outline-dark btn-sm btn-block">Edit profile</a>-->
-                                    </div>
-                                </div>
-                                <div class="col-md-6 text-center">
-                                    <div class="media-body mb-5 text-white">
-                                        <h4 class="mt-0 mb-1 text-black text-md-start text-sm-center"><span>Gojo</span> Saturo </h4>
-                                        <p class="small mb-1 text-black text-md-start text-sm-center">Japon</p>
-                                        <p class="small mb-4 text-black text-md-start text-sm-center">gojosatoru@gmail.com</p>
-                                        <p class="small mb-4 text-black text-md-start text-sm-center">
-                                            <img class="img-fluid etoile" src="../images/img.png" alt="etoile">
-                                            <img class="img-fluid etoile" src="../images/img.png" alt="etoile">
-                                            <img class="img-fluid etoile" src="../images/img.png" alt="etoile">
-                                            <img class="img-fluid etoile" src="../images/img.png" alt="etoile">
-                                            <img class="img-fluid etoile" src="../images/img.png" alt="etoile">
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Information article-->
-    <section>
-        <div class="bg-light p-4 d-flex justify-content-evenly text-center">
-            <ul class="list-inline mb-0">
-                <li data-aos="fade-right" class="list-inline-item">
-                    <h5 class="font-weight-bold mb-0 d-block">4</h5>
-                    <small class="text-muted">Article</small
-                    >
-                </li>
-                <li data-aos="fade-down" class="list-inline-item">
-                    <h5 class="font-weight-bold mb-0 d-block">0</h5>
-                    <small class="text-muted">
-                        <i class="fas fa-user mr-1"></i>Vente</small
-                    >
-                </li>
-                <li data-aos="fade-left" class="list-inline-item">
-                    <h5 class="font-weight-bold mb-0 d-block">50</h5>
-                    <small class="text-muted">Visite</small
-                    >
-                </li>
-            </ul>
-        </div>
-    </section>
     <!--Article-->
     <section>
         <div class="container-fluid">
             <div class="text-center mt-5 mb-5">
-                <h5>Article publié</h5>
+                <h1>Vos article favoris</h1>
             </div>
             <div class="row ">
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-1" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 1</h5>
                             <p class="card-text">Prix: 150€<br> État:Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button onclick="deleteDiv('div-1')"  class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-2" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 2</h5>
                             <p class="card-text">Prix: 150€<br> État:Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button onclick="deleteDiv('div-2')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-3" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 3</h5>
                             <p class="card-text">Prix: 150€<br> État:Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button  onclick="deleteDiv('div-3')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-4" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 4</h5>
                             <p class="card-text">Prix: 150€<br> État:Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button  onclick="deleteDiv('div-4')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-5"data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 5</h5>
                             <p class="card-text">Prix: 150€<br> État:Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button onclick="deleteDiv('div-5')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-6" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 6</h5>
                             <p class="card-text">Prix: 150€<br>État: Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button  onclick="deleteDiv('div-6')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                <div id="div-7" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
                     <div class="card img-fluid">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 7</h5>
                             <p class="card-text">Prix: 150€<br>État: Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button  onclick="deleteDiv('div-7')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class=" col-md-3 col-sm-6 col-lg-3 col-12 mt-3">
+                <div id="div-8" data-aos="flip-left" class=" col-md-3 col-sm-6 col-lg-3 col-12 mt-3">
                     <div class="card">
                         <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
                         <div class="card-body">
-                            <h5 class="card-title text-md-start">Dior x Air Jordan</h5>
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 8</h5>
                             <p class="card-text">Prix: 150€<br>État: Neuf</p>
-                            <a href="../404.html" class="btn btn-dark">Modifier</a>
+                            <button  onclick="deleteDiv('div-8')" class="btn btn-warning supp">Supprimer</button>
                         </div>
                     </div>
                 </div>
