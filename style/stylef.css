@@ -1,0 +1,6 @@
+.supp:hover{
+    background-color: rgba(221, 35, 35, 0.61);
+    border-color: rgba(221, 35, 35, 0.61);
+    transition: 1ms;
+    letter-spacing: 1px;
+}

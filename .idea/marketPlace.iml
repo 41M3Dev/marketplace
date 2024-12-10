@@ -4,5 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="smart_wizard" level="application" />
+    <orderEntry type="library" name="smart_wizard_theme_arrows" level="application" />
+    <orderEntry type="library" name="jquery.smartWizard" level="application" />
+    <orderEntry type="library" name="smartwizard" level="application" />
+    <orderEntry type="library" name="bootstrap.bundle" level="application" />
   </component>
 </module>

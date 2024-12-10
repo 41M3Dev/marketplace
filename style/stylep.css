@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+h5{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.profil h4{
+    font-family: 'Ninja Naruto', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.profil p{
+}
+
+
+
+.etoile{
+
+    width: 20px;
+    padding-bottom: 5px;
+}
+
+.commentaire h4{
+    padding-top: 20px;
+}

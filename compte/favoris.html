@@ -1,0 +1,160 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="ReStyle" />
+    <meta property="og:description" content="Restyle est le site idéal pour acheter et vendre des vêtements de qualité, vintage ou de seconde main. Trouvez des pièces uniques à petits prix et faites un geste pour la planète en donnant une nouvelle vie à vos vêtements.." />
+    <meta title="ReStyle">
+    <meta name="description" content="Cineflix : Découvrez un large choix de films pour tous les goûts. Action, horreur, science-fiction, comédie et bien plus. Restez à jour avec les nouveautés du cinéma !" />
+
+    <title>Market Place | Connexion</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/stylef.css">
+
+</head>
+<body id="">
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <!--Article-->
+    <section>
+        <div class="container-fluid">
+            <div class="text-center mt-5 mb-5">
+                <h1>Vos article favoris</h1>
+            </div>
+            <div class="row ">
+                <div id="div-1" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 1</h5>
+                            <p class="card-text">Prix: 150€<br> État:Neuf</p>
+                            <button onclick="deleteDiv('div-1')"  class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-2" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 2</h5>
+                            <p class="card-text">Prix: 150€<br> État:Neuf</p>
+                            <button onclick="deleteDiv('div-2')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-3" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 3</h5>
+                            <p class="card-text">Prix: 150€<br> État:Neuf</p>
+                            <button  onclick="deleteDiv('div-3')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-4" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 4</h5>
+                            <p class="card-text">Prix: 150€<br> État:Neuf</p>
+                            <button  onclick="deleteDiv('div-4')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-5"data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 5</h5>
+                            <p class="card-text">Prix: 150€<br> État:Neuf</p>
+                            <button onclick="deleteDiv('div-5')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-6" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 6</h5>
+                            <p class="card-text">Prix: 150€<br>État: Neuf</p>
+                            <button  onclick="deleteDiv('div-6')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-7" data-aos="flip-left" class="col-md-3 col-sm-6 col-12 mt-3">
+                    <div class="card img-fluid">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 7</h5>
+                            <p class="card-text">Prix: 150€<br>État: Neuf</p>
+                            <button  onclick="deleteDiv('div-7')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-8" data-aos="flip-left" class=" col-md-3 col-sm-6 col-lg-3 col-12 mt-3">
+                    <div class="card">
+                        <img src="../images/photoone.jpg" class="card-img-top" alt="Photo de Dior x Air Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title text-md-start">Dior x Air Jordan 8</h5>
+                            <p class="card-text">Prix: 150€<br>État: Neuf</p>
+                            <button  onclick="deleteDiv('div-8')" class="btn btn-warning supp">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer>
+
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="../js/bootstrap.js"></script>
+<script src="../js/script.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
